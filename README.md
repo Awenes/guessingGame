@@ -1,6 +1,6 @@
 # 🎯 Number Guesser Game
 
-A fun and interactive number-guessing game built with TypeScript, HTML, and CSS. Players try to guess a secret number between 1 and 100 within a limited number of attempts.
+A fun and interactive number-guessing game. Players try to guess a secret number between 1 and 100 within a limited number of attempts.
 
 ## 🎮 How to Play
 
@@ -23,7 +23,7 @@ A fun and interactive number-guessing game built with TypeScript, HTML, and CSS.
    The game tracks how many guesses you have left. If you run out, the game ends and reveals the secret number.
 
 5. **Restart the Game**  
-   Click the **Restart Game** button or change the difficulty to play again without reloading the page.
+   Click the **Restart Game** button to change the difficulty to play again without reloading the page.
 
 ## ⚙️ How It Works
 
@@ -35,20 +35,19 @@ A fun and interactive number-guessing game built with TypeScript, HTML, and CSS.
 
 ## 🛠️ Technologies Used
 
+- **React** – for setup and logic
 - **TypeScript** – for game logic and input validation
 - **HTML** – for structure and interface
 - **CSS** – for styling the game
+- **Tailwind** – for styling
 
 ## 🚀 Getting Started
 
 1. Download or clone the project.
-2. Compile `main.ts` to `main.js` using the TypeScript compiler:
+2. Run: npm install.
+3. Run: npm run dev.
 
-   ```bash
-   tsc main.ts
-   ```
-
-3. Open `index.html` in your browser.
+4. Open the genrated link in your browser.
 
 ---
 
